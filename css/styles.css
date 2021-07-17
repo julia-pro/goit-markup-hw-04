@@ -82,6 +82,7 @@ img {
 .contact-info {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 .logo-box {
   margin-right: 93px;
@@ -152,9 +153,15 @@ img {
 }
 .icon-contact {
   margin-right: 10px;
-  fill: var(--title-color);
+  fill: var(--text-about);
 }
 
+.mail-link:hover .icon-contact {
+  fill: var(--second-text-color);
+}
+.tel-link:hover .icon-contact {
+  fill: var(--second-text-color);
+}
 /*===========HERO========== */
 .hero-background {
   background-position: center;
@@ -343,6 +350,7 @@ img {
 .social-list-icon {
   width: 20px;
   height: 20px;
+  fill: #afb1b8;
 }
 .social-list-link {
   display: flex;
@@ -457,7 +465,15 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 100%;
 }
-
+.footer-social-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--second-title-color);
+}
+.footer-social-link:focus,
+.footer-social-link:hover {
+  background-color: var(--second-text-color);
+}
 /*======= END FOOTER =====*/
 
 /*=========== HERO ========= */
