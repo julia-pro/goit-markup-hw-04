@@ -156,10 +156,12 @@ img {
   fill: var(--text-about);
 }
 
-.mail-link:hover .icon-contact {
+.mail-link:hover .icon-contact,
+.mail-link:focus .icon-contact {
   fill: var(--second-text-color);
 }
-.tel-link:hover .icon-contact {
+.tel-link:hover .icon-contact,
+.tel-link:focus .icon-contact {
   fill: var(--second-text-color);
 }
 /*===========HERO========== */
@@ -202,7 +204,7 @@ img {
   border-radius: 4px;
   border: 0px;
   font-weight: 500;
-  padding: 6px 32px;
+  padding: 10px 32px;
   border-width: 1px;
 }
 
@@ -366,6 +368,10 @@ img {
 .social-list-link:focus {
   fill: var(--second-text-color);
   background-color: var(--second-text-color);
+}
+.social-list-link:hover .social-list-icon,
+.social-list-link:hover .social-list-icon {
+  fill: var(--second-title-color);
 }
 /*=====CLIENTS=======*/
 
